@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styleAlura.css">
+    <link rel="icon" type="Logo" href="CSS/Imagenes/Escritorio/Alura Logo.svg">
+</head>
+<body>
+    <header>
+        <img src="Imagenes/Alura Logo.svg" class="logo" alt="Logo de Alura">
+        <h1>Encriptador Alura</h1>
+        <a href="indexBinario.html"><button class="BinaryEncrypt">Encriptador Binario</button></a> 
+        <div>
+            <h6>información del dev:</h6>
+            <img src="Imagenes/Arvant Logo.png" class="logosheader" alt="Icono del desarrollador">
+            <p>Arvant</p>
+            <img src="Imagenes/Gmail Icon.png" class="logosheader" alt="Gmail.icon">
+            <p>santiArcudi1@gmail.com</p>
+        </div>
+    </header>
+    <section>
+        <textarea class="input" placeholder="Ingrese el texto aqui" rows="21"></textarea>
+        <div class="advertencia">
+            <img src="Imagenes/Important.svg" class="icono" alt="Icono de importancia">
+            <p>Solo se admiten letras minusculas sin acentos ni caracteres especiales</p>
+        </div>
+        <div class="buttons">
+            <button class="encriptar" onclick="encrypt()">Encriptar</button>
+            <button class="desencriptar" onclick="desencrypt()">Desencriptar</button>
+        </div>
+    </div>
+    </section>
+    <section>
+        <textarea class="output" readonly cols="70" rows="28"></textarea>
+        <button class="copiar" onclick="copy()">Copiar</button>
+    </section>
+    <section>
+        <a href="https://www.linkedin.com/in/santiago-arcudi/" target="_blank"><img src="Imagenes/Linkedin Icon.png" class="IconoLinkedin" alt="Icono Linkedin"></a>
+        <a href="https://github.com/SantiagoArcudi" target="_blank"><img src="Imagenes/Github.png" class="IconoGithub" alt="Icono de Github"></a>
+    </section>
+</body>
+<script src="JavaScript/script.js"></script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styleBinario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Imagenes/Alura Logo.svg" class="logo" alt="Logo de Alura">
+        <h1>Encriptador Binario</h1>
+        <a href="index.html"><button class="AluraEncrypt">Encriptador Alura</button></a> 
+    </header>
+    <section>
+        <textarea class="input" placeholder="Ingrese el texto aqui" cols="70" rows="20"></textarea>
+        <div>
+            <button class="encriptar" onclick="encrypt()">Encriptar</button>
+            <button class="desencriptar" onclick="desencrypt()">Desencriptar</button>
+        </div>
+    </section>
+    <div class="advertencia">
+        <img src="Imagenes/Important.svg" class="icono" alt="Icono de importancia">
+        <p>Solo se admiten letras minusculas sin acentos ni caracteres especiales</p>
+    </div>
+    <section>
+        <textarea class="output" readonly cols="30" rows="10"></textarea>
+        <button class="copiar" onclick="copy()">Copiar</button>
+    </section>
+    <footer>
+        <img src="Imagenes/Arvant Logo.png" alt="Icono del desarrollador">
+        <p>Arvant</p>
+        <img src="Imagenes/Linkedin Icon.png" alt="Icono Linkedin">
+        <a href="https://www.linkedin.com/in/santiago-arcudi/" target="_blank">Linkedin</a>
+        <img src="Imagenes/Gmail Icon.png" alt="Gmail.icon">
+        <p>santiArcudi1@gmail.com</p>
+        <img src="Imagenes/Github.png" alt="Icono de Github">
+        <a href="https://github.com/SantiagoArcudi" target="_blank">Github</a>
+    </footer>
+</body>
+<script src="JavaScript/scriptBinario.js"></script>
+</html>

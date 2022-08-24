@@ -1,0 +1,231 @@
+body{
+    background-color: black;
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Silkscreen', cursive;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    display: inline;
+    margin-bottom: 2%;
+}
+.logo{
+    width: 40px;
+    height: 45px;
+    padding: 1% 0 0 1%;
+    margin-left: 1%;
+    background: linear-gradient( 320deg, rgba(255, 255, 255, 0.934) 60%, black 40%);
+}
+.AluraEncrypt{
+    margin: -35px 0 0 30px;
+    font-family: 'Silkscreen', cursive;
+    position: absolute;
+    width: 20%;
+    height:4%;
+    font-size: 15px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border-color: black;
+}
+.AluraEncrypt:hover{
+    cursor:pointer;
+}
+.input{
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    font-size: 20px;
+    background: none;
+    border: white;
+    width: 60%;
+    box-shadow: 0px 0px 0 4px white;
+    margin: 1% 0 0 5%;
+    padding: 1%;
+    position: relative;
+    resize: none;
+}
+textarea::placeholder{
+    color: black;
+}
+.encriptar{
+    background: none;
+    font-family: 'Silkscreen', cursive;
+    position: absolute;
+    width: 20%;
+    height: 9%;
+    margin: -23.5% 0 0 74%;
+    font-size: 15px;
+    color: white ;
+    border-color: white;
+}
+.encriptar:hover{
+    background-color: rgba(233, 227, 227, 0.47);
+    cursor:pointer;
+}
+.encriptar:active{
+    background-color: rgba(229, 222, 222, 0.8);
+}
+.desencriptar{
+    background: none;
+    font-family: 'Silkscreen', cursive;
+    color: black;
+    position: absolute;
+    width: 20%;
+    height: 9%;
+    margin: -11.5% 0 0 74%;
+    font-size: 15px;
+    color: white ;
+    border-color: white;
+}
+.desencriptar:hover{
+    background-color: rgba(233, 227, 227, 0.47);
+    cursor:pointer;
+}
+.desencriptar:active{
+    background-color: rgba(229, 222, 222, 0.8);
+}
+
+.advertencia{
+    display: flex;
+    margin-top: 1%;
+}
+.icono{
+    margin-left: 5.5%;
+    width: 20px;
+    height: 20px;
+}
+p{
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.output{
+    font-family: 'Silkscreen', cursive;
+    resize: none;
+    background: none;
+    position: relative;
+    width: 70%;
+    margin: 1% 0 2% 3%;
+    box-shadow: 0px 0px 0px 4px #D8DFE8;
+    padding: 1%;
+    color: white;
+}
+.copiar{
+    background: none;
+    font-family: 'Silkscreen', cursive;
+    color: black;
+    position: absolute;
+    width: 20%;
+    height: 9%;
+    font-size: 15px;
+    margin: 4.5% 0 0 2.5%;
+    color: white ;
+    border-color: white;
+}
+.copiar:hover{
+    background-color: rgba(233, 227, 227, 0.47);
+    cursor:pointer;
+}
+.copiar:active{
+    background-color: rgba(229, 222, 222, 0.8);
+}
+footer{
+    background-color: #CCCCCC;
+    margin-top: 1.5%;
+}
+footer p, a{
+    display: inline-block;
+    font-family: 'Silkscreen', cursive;
+    color: black;
+}
+footer img{
+    width: 14px;
+    height: 14px;
+    margin-left: 14%;
+}
+@media screen and (max-width:1024px) {
+    body{
+        background-repeat:repeat;
+    }
+    .logo{
+        position: relative;
+        margin: auto;
+        display: block;
+        padding-top: 2%;
+        width: 10%;
+        height: 14%;
+    }   
+    h1{
+        position: relative;
+        margin: auto;
+        background: none;
+        display: block;
+        font-size: 35px;
+        text-align: center;
+        padding: 1% 0 2% 0;
+    }
+    .AluraEncrypt{
+        position: relative;
+        display: block;
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding: 0%;
+    }
+
+
+    .input, .output{
+        display: block;
+        height: 250px;
+        margin-left: 10%;
+        margin-top: 2%;
+        padding: 3% 0 0 3.5%;
+        width: 75%;
+        font-size: 13px;
+    }
+     .encriptar, .desencriptar, .copiar{
+        width: auto;
+        height: auto;
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+    .encriptar, .desencriptar{
+        display: inline-block;
+        margin: 2% auto 2% 24%;
+    }
+    footer img{
+        display: block;
+        position: relative;
+        margin: 1% auto auto auto;
+
+    }
+    footer p, a{
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (max-width:480px) {
+    .encriptar, .desencriptar{
+        margin: 4% auto 4% auto;
+        display: block;
+    }
+}
+@media screen and (min-width:1500px) {
+    header div{
+        margin-left: 74.4%;
+    }
+}
+@media screen and (min-width:1780px) {
+    header div{
+        margin-left: 75.3%;
+        padding-top: -20px;
+        margin-bottom: -7%;
+    }
+}

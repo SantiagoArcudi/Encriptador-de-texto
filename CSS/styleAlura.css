@@ -1,0 +1,281 @@
+body{
+    background: linear-gradient(40deg, rgb(255, 76, 21) 15%, rgb(23, 18, 63) 30%, rgb(91, 105, 178) 10%, rgb(23, 18, 63) 30%, rgb(86, 83, 255)) 15%;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    display: inline;
+    background: linear-gradient(360deg, rgb(86, 83, 255) 76%, rgb(32, 27, 89) 10%) ;
+    margin: 0.5% 0 0 2.5%;
+    padding-top: 1%;
+    width: 2.1%;
+    height: 50px;
+}
+h1{
+    color: rgb(200, 191, 231);
+    font-size: 50px;
+    display: inline;
+}
+.BinaryEncrypt{
+    position:relative;
+    color: #FFFFFF;
+    width: 16%;
+    height: 55px;
+    margin-left: 7%;
+    margin-top: 2%;
+    background: linear-gradient(40deg, rgb(23, 18, 63) 80%, rgb(86, 83, 255) 20%);
+    border-color: rgb(86, 83, 255);
+    border-width: 2px;
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 17px;
+    box-shadow: 0px 0px 8px 1px rgb(86, 83, 255);
+}
+.BinaryEncrypt:hover{
+    cursor:pointer;
+    border-color: rgb(91, 105, 178);
+}
+.BinaryEncrypt:active{
+    font-size: 16px;
+}
+header div{
+    margin-left: 73%;
+    padding-top: 15px;
+    margin-bottom: -6.5%;
+    margin-right: auto;
+}
+h6{
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+    margin-top: -16%;
+}
+.logosheader{
+    width: 3.7%;
+    height: 3.7%;
+}
+p{
+    display: inline-block;
+    margin: 0.34% 0 0 0.3%;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+.input{
+    color: rgb(255, 76, 21);
+    font-size: 22px;
+    background: none;
+    border-radius: 28px;
+    border: rgb(23, 18, 63);
+    width: 53%;
+    box-shadow: 0px 0px 32px 4px rgb(86, 83, 255);
+    margin: 8.5% 0 0 7.5%;
+    padding: 1%;
+    resize: none;
+}
+.icono{
+    margin-left: 7%;
+    width: 1.25%;
+    height: 1.25%;
+}
+.advertencia{
+    display: flex;
+    margin: 1% 0 0 2.5%;
+}
+textarea::placeholder{
+    color: rgb(255, 76, 21);
+    opacity: 75%;
+    font-style: italic;
+}
+.buttons{
+    display: inline;
+}
+.encriptar{
+    color: white;
+    width: 20%;
+    height: 75px;
+    margin: 2% 0 0 11.7%;
+    background: linear-gradient(40deg, rgb(255, 76, 21) 80%, rgb(23, 18, 63) 20%);
+    border-color: rgb(23, 18, 63);
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 19px;
+}
+.encriptar:hover{
+    cursor:pointer;
+    border-color: rgb(91, 105, 178);
+}
+.encriptar:active{
+    font-size: 18px;
+}
+.desencriptar{
+    color: white;
+    width: 20%;
+    margin-left: 6%;
+    height: 75px;
+    background: linear-gradient(40deg, rgb(23, 18, 63) 80%, rgb(91, 105, 178) 20%);
+    border-color: rgb(91, 105, 178);
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 19px;
+}
+.desencriptar:hover{
+    cursor:pointer;
+    border-color: rgb(255, 76, 21);
+}
+.desencriptar:active{
+    font-size: 18px;
+}
+.output{
+    resize: none;
+    background: none;
+    background-image: url(Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 90%;
+    width: 20.5%;
+    margin: -750px 0 65px 71.3%;
+    box-shadow: 0px 0px 32px 4px rgb(86, 83, 255);
+    border-radius: 24px;
+    padding: 1%;
+    border-color: rgb(23, 18, 63);
+    color: rgb(200, 191, 231);
+    font-size: 22px;
+    display: block;
+}
+.output:hover{
+    cursor:auto;
+}
+.copiar{
+    position: absolute;
+    color: white;
+    width: 20%;
+    height: 75px;
+    background: linear-gradient(40deg, rgb(91, 105, 178) 80%, rgb(255, 76, 21) 20%);
+    border-color: rgb(255, 76, 21);
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 19px;
+    margin: -12.5% 0 0 72.5%;
+}
+.copiar:hover{
+    cursor:pointer;
+    border-color: white;
+}
+.copiar:active{
+    font-size: 18px;
+}
+.IconoLinkedin{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: -10% 0 0 20px;
+}
+.IconoGithub{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: -5% 0 0 20px;
+}
+@media screen and (max-width:1024px) {
+    body{
+        background-repeat:repeat;
+    }
+    .logo{
+        position: relative;
+        margin: auto;
+        display: block;
+        background: none;
+        padding-top: 2%;
+        width: 10%;
+        height: 14%;
+    }
+    h1{
+        position: relative;
+        margin: auto;
+        background: none;
+        display: block;
+        font-size: 35px;
+        text-align: center;
+        padding: 1% 0 2% 0;
+    }
+    .BinaryEncrypt{
+        position: relative;
+    }
+    h6{
+        margin: auto;
+        text-align: center;
+        padding: auto;
+    }
+    .encriptar, .desencriptar, .BinaryEncrypt, .copiar{
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    .logosheader, p, header div{
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        font-size: 14px;
+    }
+    .input, .output{
+        display: block;
+        height: 250px;
+        margin-left: 10%;
+        margin-top: 2%;
+        padding: 3% 0 0 3.5%;
+        width: 75%;
+        font-size: 11px;
+        background-size: 50%;
+    }
+    .encriptar, .desencriptar{
+        display: inline-block;
+        margin: 2% auto 2% 25%;
+    }
+    .icono{
+        margin-left: 8%;
+        width: 17px;
+        height: 17px;
+    }
+    p:last-child{
+        text-align: left;
+        font-size: 9px;
+        margin: 1.4% 0 0 1%;
+    }
+    .copiar{
+        position: relative;
+        margin: -100px auto 50px auto;
+    }
+    .IconoLinkedin, .IconoGithub{
+        width: 7%;
+        height: 7%;
+        margin: auto;
+        display: inline-block;
+        margin: 2% auto 2% 27%;
+        position: relative;
+    }
+}
+@media screen and (max-width:480px) {
+    .encriptar, .desencriptar{
+        margin: auto;
+        display: block;
+
+    }
+    .output{
+        background-size: 80%;
+    }
+}
+@media screen and (min-width:1500px) {
+    header div{
+        margin-left: 74.4%;
+    }
+}
+@media screen and (min-width:1780px) {
+    header div{
+        margin-left: 75.3%;
+        padding-top: -20px;
+        margin-bottom: -7%;
+    }
+}
