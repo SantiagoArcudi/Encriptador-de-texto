@@ -4,13 +4,17 @@ const output = document.querySelector(".output");
 function encrypt() {
     let textoEncriptado = encriptar(input.value);
     output.value = textoEncriptado;
-    output.style.backgroundImage = "none";
+    if (output.value != "") {
+        output.style.backgroundImage = "none";
+    }
     input.value = "";
 }
 function desencrypt(){
     let textoDesencriptado = desencriptar(input.value);
     output.value = textoDesencriptado;
-    output.style.backgroundImage = "none";
+    if (output.value != "") {
+        output.style.backgroundImage = "none";
+    }
     input.value = "";
 }
 
@@ -43,7 +47,7 @@ function encriptar(texto) {
     let validar = /[^(a-z)|(\s)]/g;
     if (validar.test(texto)) {
         alert("Solo se admiten letras minusculas sin acentos ni caracteres especiales");
-        return ""
+        return "";
     } else {
     texto = encriptarI(texto);
     texto = encriptarE(texto);
@@ -83,7 +87,7 @@ function desencriptar(texto) {
     let validar = /[^(a-z)|(\s)]/g;
     if (validar.test(texto)) {
         alert("Solo se admiten letras minusculas sin acentos ni caracteres especiales");
-        return ""
+        return "";
     } else {
         texto = desencriptarA(texto);
         texto = desencriptarE(texto);           
