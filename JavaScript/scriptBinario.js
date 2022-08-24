@@ -317,41 +317,34 @@ function desencriptarZ(texto) {
     return texto;
 }
 function desencriptar(texto) {
-    let validar = /[^a-zñ\s]/g;
-
-    if (validar.test(texto)) {
-        alert("Solo se admiten letras minusculas sin acentos ni caracteres especiales");
-        return ""
-    } else {
-        texto = desencriptarA(texto);
-        texto = desencriptarB(texto);
-        texto = desencriptarC(texto);
-        texto = desencriptarD(texto);
-        texto = desencriptarE(texto);
-        texto = desencriptarF(texto);
-        texto = desencriptarG(texto);
-        texto = desencriptarH(texto);
-        texto = desencriptarI(texto);
-        texto = desencriptarJ(texto);
-        texto = desencriptarK(texto);
-        texto = desencriptarL(texto);
-        texto = desencriptarM(texto);
-        texto = desencriptarN(texto);
-        texto = desencriptarENIE(texto);
-        texto = desencriptarO(texto);
-        texto = desencriptarP(texto);
-        texto = desencriptarQ(texto);
-        texto = desencriptarR(texto);
-        texto = desencriptarS(texto);
-        texto = desencriptarT(texto);
-        texto = desencriptarU(texto);
-        texto = desencriptarV(texto);
-        texto = desencriptarW(texto);
-        texto = desencriptarX(texto);
-        texto = desencriptarY(texto);
-        texto = desencriptarZ(texto);
-        return texto;
-    }
+    texto = desencriptarA(texto);
+    texto = desencriptarB(texto);
+    texto = desencriptarC(texto);
+    texto = desencriptarD(texto);
+    texto = desencriptarE(texto);
+    texto = desencriptarF(texto);
+    texto = desencriptarG(texto);
+    texto = desencriptarH(texto);
+    texto = desencriptarI(texto);
+    texto = desencriptarJ(texto);
+    texto = desencriptarK(texto);
+    texto = desencriptarL(texto);
+    texto = desencriptarM(texto);
+    texto = desencriptarN(texto);
+    texto = desencriptarENIE(texto);
+    texto = desencriptarO(texto);
+    texto = desencriptarP(texto);
+    texto = desencriptarQ(texto);
+    texto = desencriptarR(texto);
+    texto = desencriptarS(texto);
+    texto = desencriptarT(texto);
+    texto = desencriptarU(texto);
+    texto = desencriptarV(texto);
+    texto = desencriptarW(texto);
+    texto = desencriptarX(texto);
+    texto = desencriptarY(texto);
+    texto = desencriptarZ(texto);
+    return texto;
 }
 function copy() {
     output.select();
