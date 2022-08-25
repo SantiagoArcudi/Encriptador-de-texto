@@ -1,2 +1,2 @@
 # Encriptador-de-texto
-###Challenge Numero 1 de Alura Latam
+Challenge Numero 1 de Alura Latam
